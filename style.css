@@ -1,0 +1,36 @@
+.logo {
+   max-width: 80px;
+   height: auto; 
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.right-links {
+    display: flex;
+    gap: 8px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
