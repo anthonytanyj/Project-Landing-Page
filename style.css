@@ -116,3 +116,75 @@ p {
     font-size: 12px;
     text-align: center;
 }
+
+.Quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.Main_Quote {
+    font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.Author {
+    align-self: flex-end;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 75px 250px;
+    background-color: #3882f6;
+    gap: 75px;
+    border-radius: 8px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Form_Header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.Form_Sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Form_button {
+    background-color: #3882f6; 
+    color: #e5e7eb;
+    font-weight: bolder;
+    border-radius: 8px;
+    padding: 4px;
+    width: 90px;
+ }
+
+ .Footer {
+    display: flex;
+    background-color: #1F2937;
+    padding: 15px;
+    justify-content: center;
+ }
+
+ .Footer_Text {
+    color: #E5E7EB;
+ }
